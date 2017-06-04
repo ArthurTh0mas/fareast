@@ -6,3 +6,18 @@
 ========
 
 This library is a rust port of https://github.com/spotify/annoy , currently only index serving part is implemented
+
+| Runtimes         | Nuget package |
+| ---------------  | ------------- |
+| Fareast  | [![NuGet version](https://buildstats.info/nuget/Fareast)](https://www.nuget.org/packages/Fareast)  |
+| Fareast-Batteries-Windows-x64  | [![NuGet version](https://buildstats.info/nuget/Fareast-Batteries-Windows-x64)](https://www.nuget.org/packages/Fareast-Batteries-Windows-x64)  |
+| Fareast-Batteries-Linux-x64        | TODO  |
+| Fareast-Batteries-Darwin-x64        | TODO  |
+
+# Installation
+```xml
+  <ItemGroup>
+    <PackageReference Include="Fareast" />
+    <PackageReference Include="Fareast-Batteries-Windows-x64" />
+  </ItemGroup>
+```
