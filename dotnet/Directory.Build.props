@@ -8,7 +8,7 @@
   </PropertyGroup>
   
   <PropertyGroup>
-    <Version>0.0.1-pre1</Version>
+    <Version>0.1.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>ng8eke</Authors>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
