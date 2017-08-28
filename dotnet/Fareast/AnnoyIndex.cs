@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 
 namespace Fareast
 {
-    public class AnnoyIndex : IAnnoyIndex, IDisposable
+    public class AnnoyIndex : DisposeBase, IAnnoyIndex
     {
         private IntPtr _indexPtr;
 
@@ -68,7 +68,7 @@ namespace Fareast
             }
         }
 
-        public void Dispose()
+        protected override void DisposeResources()
         {
             NativeMethods.FreeAnnoyIndex(_indexPtr);
             _indexPtr = IntPtr.Zero;
