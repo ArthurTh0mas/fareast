@@ -2,7 +2,8 @@
 
 [![Build Status](https://img.shields.io/travis/ng8eke/fareast/master.svg)](https://travis-ci.org/ng8eke/fareast)
 [![Build status](https://img.shields.io/appveyor/ci/ng8eke/fareast/master.svg)](https://ci.appveyor.com/project/ng8eke/fareast)
-![Crates.io](https://img.shields.io/crates/v/ru_annoy.svg)
+[![Crates.io](https://img.shields.io/crates/v/ru_annoy.svg)](https://crates.io/crates/ru_annoy)
+[![Coverage Status](https://coveralls.io/repos/github/ng8eke/fareast/badge.svg?branch=master)](https://coveralls.io/github/ng8eke/fareast?branch=master)
 [![MIT License](https://img.shields.io/github/license/ng8eke/fareast.svg)](https://github.com/ng8eke/fareast/blob/master/LICENSE)
 ========
 
