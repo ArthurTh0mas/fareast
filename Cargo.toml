@@ -1,20 +1,20 @@
 [package]
-name = "ru_annoy"
-edition = "2018"
-version = "0.1.0"
 authors = ["ng8eke"]
-license = "MIT"
-repository = "https://github.com/ng8eke/fareast"
 description = """
 A rust implementation of annoy(https://github.com/spotify/annoy) (Index serving only). Providing C api as well
 """
+edition = "2018"
+license = "MIT"
+name = "ru_annoy"
+repository = "https://github.com/ng8eke/fareast"
+version = "0.1.0"
 
 [features]
 cffi = ["libc"]
 
 [dependencies]
-memmap = "0.7"
-libc = { version = "0.2", optional = true }
+libc = {version = "0", optional = true}
+memmap = "0"
 
 [lib]
 crate-type = ["lib", "cdylib"]
