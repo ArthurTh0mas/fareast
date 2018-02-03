@@ -1,12 +1,13 @@
 image:
-  - Ubuntu
   - Visual Studio 2019
+  - Ubuntu
 environment:
   matrix:
     - RUST_TOOL_CHAIN: stable
 test_script:
   - cargo test --release
-  - cargo test --release --features cffi
+  - cargo test --release --all-features
+  - dotnet test -c Release dotnet/Fareast.Tests
 branches:
   only:
     - master
@@ -34,9 +35,9 @@ for:
       - source $HOME/.cargo/env
       - rustup component add rustfmt
     build_script:
-      - cargo build --release --features cffi
+      - cargo build --release --all-features
       - cargo fmt --all -- --check
-      - dotnet build -c Release dotnet/Fareast-Batteries-Linux-x64/Fareast-Batteries-Linux-x64.csproj
+      - dotnet build -c Release dotnet/Fareast-Batteries-Linux-x64
   - matrix:
       only:
         - image: Visual Studio 2019
@@ -51,7 +52,7 @@ for:
       - rustc -V
       - cargo -V
     build_script:
-      - cargo build --release --features cffi
+      - cargo build --release --all-features
       - cargo fmt --all -- --check
-      - dotnet build -c Release dotnet/Fareast/Fareast.csproj
-      - dotnet build -c Release dotnet/Fareast-Batteries-Windows-x64/Fareast-Batteries-Windows-x64.csproj
+      - dotnet build -c Release dotnet/Fareast
+      - dotnet build -c Release dotnet/Fareast-Batteries-Windows-x64
