@@ -1,11 +1,12 @@
 # Fareast
 
-[![Build Status](https://img.shields.io/travis/ng8eke/fareast/master.svg)](https://travis-ci.org/ng8eke/fareast)
+[![main](https://github.com/ng8eke/fareast/actions/workflows/main.yml/badge.svg)](https://github.com/ng8eke/fareast/actions/workflows/main.yml)
 [![Build status](https://img.shields.io/appveyor/ci/ng8eke/fareast/master.svg)](https://ci.appveyor.com/project/ng8eke/fareast)
 [![Crates.io](https://img.shields.io/crates/v/ru_annoy.svg)](https://crates.io/crates/ru_annoy)
 [![Coverage Status](https://coveralls.io/repos/github/ng8eke/fareast/badge.svg?branch=master)](https://coveralls.io/github/ng8eke/fareast?branch=master)
 [![MIT License](https://img.shields.io/github/license/ng8eke/fareast.svg)](https://github.com/ng8eke/fareast/blob/master/LICENSE)
 ========
+<!-- [![Build Status](https://img.shields.io/travis/ng8eke/fareast/master.svg)](https://travis-ci.org/ng8eke/fareast) -->
 
 This library is a rust port of https://github.com/spotify/annoy , currently only index serving part is implemented
 
@@ -26,9 +27,9 @@ let nearest = index.get_nearest(v0.as_ref(), 5, -1, true);
 | Fareast                       | [![NuGet version](https://buildstats.info/nuget/Fareast)](https://www.nuget.org/packages/Fareast)                                             |
 | Fareast-Batteries-Windows-x64 | [![NuGet version](https://buildstats.info/nuget/Fareast-Batteries-Windows-x64)](https://www.nuget.org/packages/Fareast-Batteries-Windows-x64) |
 | Fareast-Batteries-Linux-x64   | [![NuGet version](https://buildstats.info/nuget/Fareast-Batteries-Linux-x64)](https://www.nuget.org/packages/Fareast-Batteries-Linux-x64)     |
-| Fareast-Batteries-Darwin-x64  | TODO                                                                                                                                          |
+| Fareast-Batteries-Darwin-x64  | [![NuGet version](https://buildstats.info/nuget/Fareast-Batteries-Darwin-x64)](https://www.nuget.org/packages/Fareast-Batteries-Darwin-x64)   |
 
-#### Installation
+### Installation
 ```xml
   <ItemGroup>
     <PackageReference Include="Fareast" />
