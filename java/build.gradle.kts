@@ -16,12 +16,12 @@ plugins {
 }
 
 repositories {
-    // Use JCenter for resolving dependencies.
-    jcenter()
+    mavenCentral()
+    maven("https://jitpack.io")
 }
 
 group = "com.github.ng8eke"
-version = "0.1.2+1"
+version = "0.1.2"
 
 java {                                      
     sourceCompatibility = JavaVersion.VERSION_1_8

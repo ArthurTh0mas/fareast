@@ -32,7 +32,7 @@ repositories {
 }
   
 dependencies {
-  implementation 'com.github.ng8eke:Fareast:0.1.2+1'
+  implementation 'com.github.ng8eke:Fareast:0.1.2'
 }
 ```
 #### Usage
