@@ -1,7 +1,8 @@
 # Fareast
 
 [![main](https://github.com/ng8eke/fareast/actions/workflows/main.yml/badge.svg)](https://github.com/ng8eke/fareast/actions/workflows/main.yml)
-[![Build status](https://img.shields.io/appveyor/ci/ng8eke/fareast/master.svg)](https://ci.appveyor.com/project/ng8eke/fareast)
+[![appveyor](https://img.shields.io/appveyor/ci/ng8eke/fareast/master.svg)](https://ci.appveyor.com/project/ng8eke/fareast)
+[![travis](https://travis-ci.com/ng8eke/fareast.svg?branch=master)](https://travis-ci.com/github/ng8eke/fareast)
 [![MIT License](https://img.shields.io/github/license/ng8eke/fareast.svg)](https://github.com/ng8eke/fareast/blob/master/LICENSE)
 ========
 <!-- [![Build Status](https://img.shields.io/travis/ng8eke/fareast/master.svg)](https://travis-ci.org/ng8eke/fareast) -->
@@ -10,7 +11,7 @@ This library is a rust port of [spotify/annoy](https://github.com/spotify/annoy)
 
 ### Install via [crates.io](https://crates.io/crates/ru_annoy)
 [![Crates.io](https://img.shields.io/crates/v/ru_annoy.svg)](https://crates.io/crates/ru_annoy)
-[![Coverage Status](https://coveralls.io/repos/github/ng8eke/fareast/badge.svg?branch=master)](https://coveralls.io/github/ng8eke/fareast?branch=master)
+[![codecov](https://codecov.io/gh/ng8eke/fareast/branch/master/graph/badge.svg?token=jVO7N0AVTH)](https://codecov.io/gh/ng8eke/fareast)
 ```toml
 # Cargo.toml
 [dependencies]
