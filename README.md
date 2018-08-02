@@ -40,7 +40,7 @@ repositories {
 }
   
 dependencies {
-  implementation 'com.github.ng8eke:Fareast:0.1.2'
+  implementation 'com.github.ng8eke:Fareast:<tag>'
 }
 ```
 #### Usage
@@ -60,8 +60,8 @@ val index = AnnoyIndex.tryLoad("index.5d.ann", 5, IndexType.Angular)
 #### Install via nuget
 ```xml
   <ItemGroup>
-    <PackageReference Include="Fareast" />
-    <PackageReference Include="Fareast-Batteries-Windows-x64" />
+    <PackageReference Include="Fareast" Version="*" />
+    <PackageReference Include="Fareast-Batteries-Windows-x64" Version="*" />
   </ItemGroup>
 ```
 #### Usage

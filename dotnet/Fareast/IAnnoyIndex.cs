@@ -7,6 +7,8 @@ namespace Fareast
     {
         int Dimension { get; }
 
+        ulong Size { get; }
+
         IReadOnlyList<float> GetItemVector(long itemIndex);
 
         AnnoyIndexSearchResult GetNearest(
