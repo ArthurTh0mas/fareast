@@ -31,6 +31,7 @@ let nearest = index.get_nearest(v0.as_ref(), 5, -1, true);
 
 ### kotlin/java
 
+It uses JNI bindings to rust crate and is ~5-10x faster than [pure java implementation](https://github.com/spotify/annoy-java) in [benchmark scenario](https://github.com/ng8eke/fareast/tree/master/bench)
 #### Install via [jitpack.io](https://jitpack.io/#ng8eke/fareast)
 [![Release](https://jitpack.io/v/ng8eke/fareast.svg)](https://jitpack.io/#ng8eke/fareast)
 ```gradle
