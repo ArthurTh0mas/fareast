@@ -1,11 +1,10 @@
 # Fareast
 
 [![main](https://github.com/ng8eke/fareast/actions/workflows/main.yml/badge.svg)](https://github.com/ng8eke/fareast/actions/workflows/main.yml)
-[![appveyor](https://ci.appveyor.com/api/projects/status/ux13ive7vhsg32el/branch/master?svg=true)](https://ci.appveyor.com/project/ng8eke/fareast/branch/master)
 [![travis](https://travis-ci.com/ng8eke/fareast.svg?branch=master)](https://travis-ci.com/github/ng8eke/fareast)
 [![MIT License](https://img.shields.io/github/license/ng8eke/fareast.svg)](https://github.com/ng8eke/fareast/blob/master/LICENSE)
 ========
-<!-- [![Build Status](https://img.shields.io/travis/ng8eke/fareast/master.svg)](https://travis-ci.org/ng8eke/fareast) -->
+<!-- [![appveyor](https://ci.appveyor.com/api/projects/status/ux13ive7vhsg32el/branch/master?svg=true)](https://ci.appveyor.com/project/ng8eke/fareast/branch/master) -->
 
 This library is a rust port of [spotify/annoy](https://github.com/spotify/annoy) , currently only index serving is supported.
 
