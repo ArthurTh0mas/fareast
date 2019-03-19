@@ -19,7 +19,7 @@ install:
   - rustup component add llvm-tools-preview
   - export RUSTFLAGS="-Zinstrument-coverage"
 script:
-  - cargo +nightly build --features cffi
-  - LLVM_PROFILE_FILE="ng8eke-%p-%m.profraw" cargo +nightly test --features cffi
+  - cargo +nightly build --all-features
+  - LLVM_PROFILE_FILE="ng8eke-%p-%m.profraw" cargo +nightly test --all-features
   - ./grcov . --binary-path ./target/debug/ -s . -t lcov --branch --ignore-not-existing --ignore "/*" -o lcov.info
   - bash <(curl -s https://codecov.io/bash) -f lcov.info
